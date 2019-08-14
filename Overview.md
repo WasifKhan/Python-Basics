@@ -4,6 +4,16 @@
 
 ### Getting Started
 
+.|Python|C++|Java
+Typing|Strong|Weak|..
+Typing|Dynamic|Sttic|..
+FCF| Yes|No|..
+Garbage Collection|Yes|No
+Interpreted|Yes|No
+
+
+
+
 ### Python Basics
 
 ### Data Types
