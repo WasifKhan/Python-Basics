@@ -5,6 +5,7 @@
 ### Getting Started
 
 .|Python|C++|Java
+--|-----|---|----
 Typing|Strong|Weak|..
 Typing|Dynamic|Sttic|..
 FCF| Yes|No|..
