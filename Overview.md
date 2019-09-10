@@ -12,6 +12,29 @@ FCF| Yes|No|..
 Garbage Collection|Yes|No
 Interpreted|Yes|No
 
+### The Good
+* Dynamic/Duck Typing
+* Garbage Collection
+* Interpreted
+
+### The Bad
+* Dynamic/Duck Typing
+* Garbage Collection (Object overhead)
+* Interpreted
+
+### Python Hello World
+
+```Python
+def hello_world():
+  print("Hello World")
+
+def greater_than(x, y):
+  if x > y:
+    return x
+  else:
+    return y
+```
+
 ### Data Types
 - Basic types
   - Integers/Floats/Complex (mutability/caching)
@@ -43,13 +66,37 @@ Interpreted|Yes|No
 
 ### Classes
 
+* class/instance variables
+* class/instance methods
+* static methods
+* getters/setters/deleters
+
 ### Dunder Methods
+
+* airthmetic protocol
+* comparison protocol
+* print protocol
+* iteration protocol
+* slicing protocol
+* context management protocol (originally a whole section on this)
 
 ### Inheritance
 
-### Context Variables
+* basic inheritance
+* multiple inheritance and MRO
+* diamond problem
+
+### Python internals
+
+* a.x == a.\_\_dict\_\_['x']
+* bytecode and interpretation
 
 ## Testing in Python
+
+* pytest basics
+* parameterization/fixtures
+* xskip/xfail
+* mocking and monkeypatching
 
 ### Basics
 
@@ -61,9 +108,9 @@ Interpreted|Yes|No
 
 ### Logging Basics
 
-
 ### Complete Logging
 - Loggers
 - Handlers
 - Formatters
 - Filters
+- Logging Hierarchy
